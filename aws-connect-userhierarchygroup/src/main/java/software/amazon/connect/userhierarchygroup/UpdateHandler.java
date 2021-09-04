@@ -29,7 +29,7 @@ public class UpdateHandler extends BaseHandlerStd {
             throw new CfnInvalidRequestException("InstanceArn cannot be updated.");
         }
 
-        if (StringUtils.isNotEmpty(desiredStateModel.getParentGroupArn()) && !desiredStateModel.getInstanceArn().equals(previousStateModel.getParentGroupArn())) {
+        if (!desiredStateModel.getParentGroupArn().equals(previousStateModel.getParentGroupArn())) {
             throw new CfnInvalidRequestException("ParentGroupArn cannot be updated.");
         }
         return ProgressEvent.progress(request.getDesiredResourceState(), callbackContext)

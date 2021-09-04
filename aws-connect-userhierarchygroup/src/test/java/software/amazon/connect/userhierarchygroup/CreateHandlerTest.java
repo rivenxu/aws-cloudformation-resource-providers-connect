@@ -29,7 +29,6 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 import static software.amazon.connect.userhierarchygroup.UserHierarchyGroupTestDataProvider.INSTANCE_ARN;
 import static software.amazon.connect.userhierarchygroup.UserHierarchyGroupTestDataProvider.PARENT_HIERARCHY_GROUP_ARN;
-import static software.amazon.connect.userhierarchygroup.UserHierarchyGroupTestDataProvider.PARENT_HIERARCHY_GROUP_ID;
 import static software.amazon.connect.userhierarchygroup.UserHierarchyGroupTestDataProvider.USER_HIERARCHY_GROUP_ARN;
 import static software.amazon.connect.userhierarchygroup.UserHierarchyGroupTestDataProvider.USER_HIERARCHY_GROUP_ID;
 import static software.amazon.connect.userhierarchygroup.UserHierarchyGroupTestDataProvider.USER_HIERARCHY_GROUP_NAME;
